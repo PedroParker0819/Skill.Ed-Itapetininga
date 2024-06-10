@@ -389,8 +389,12 @@ body {
   
   /* Add any additional styling as needed */
 
-  @media only screen and (max-width: 750px) {
-    .destaque-grid {
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    }
+@media only screen and (max-width: 600px) {
+  .message-box {
+    width: 90%;
+    max-width: 400px;
   }
+  img[src="eu.jpg"] {
+    display: none;
+}
+}
